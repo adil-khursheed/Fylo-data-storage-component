@@ -177,7 +177,7 @@ body{
         min-height: 100vh;
         background: var(--very-dark-blue) url(images/bg-mobile.png) no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
     }
 }
 
