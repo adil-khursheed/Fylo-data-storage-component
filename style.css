@@ -255,5 +255,10 @@ body{
     .range{
         margin-bottom: 0.5rem;
     }
+	
+	.slider-thumb{
+        left: 78%;
+        top: 3px;
+    }
 
 }
