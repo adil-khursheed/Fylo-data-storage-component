@@ -20,11 +20,12 @@ body{
     width: 100vw;
     min-height: 100vh;
     background: var(--very-dark-blue) url(images/bg-desktop.png) no-repeat;
-    background-position-y: 330px;
+    background-position: bottom right;
     background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .container{
@@ -106,13 +107,12 @@ body{
 
 .data-message{
     font-size: 0.68rem;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--pale-blue);
     letter-spacing: 0.8px;
     margin-bottom: 1rem;
 }
 
 .data-message span{
-    color: #fff;
     font-weight: 700;
 }
 
@@ -157,17 +157,19 @@ body{
 }
 
 .range-number p{
-    color: #fff;
+    color: var(--pale-blue);
     font-size: 0.7rem;
 }
 
-/* .attribution { 
+.attribution { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    margin-top: 5rem;
+    color: var(--grayish-blue);
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
-} */
+    color: var(--pale-blue); 
+}
 
 
 @media only screen and (max-width: 1024px){
@@ -255,8 +257,8 @@ body{
     .range{
         margin-bottom: 0.5rem;
     }
-	
-	.slider-thumb{
+
+    .slider-thumb{
         left: 78%;
         top: 3px;
     }
